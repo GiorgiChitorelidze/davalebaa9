@@ -37,7 +37,7 @@ header{
 .box-text{
 	padding-top:30px;
 }
-/*.boxes{
+.boxes{
 	display: flex;
 	justify-content:space-between;
 }
@@ -53,4 +53,12 @@ header{
 	width:570px;
 	height:320px;
 
-}*/
+}
+.box-image1{
+	width:100px;
+	height:130px;
+}
+.box-image2{
+	width:100px;
+	height:130px;
+}
