@@ -1,7 +1,30 @@
 header{
+	position:relative;
 	width:1170px;
 	background:white;
 }
 .flex{
 	display:flex;
+	justify-content:space-between;
+	align-items: center;
+}
+.logo{
+	height:60px;
+}
+.navigation-li{
+	margin-right:15px;
+}
+.social-li{
+	margin-right:15px;
+}
+.social-li:after{
+	content:'';
+	width:2px;
+	height:30px;
+	background:#3D58A6;
+	display: inline-block;
+	margin:0 10px;
+}
+.container2{
+	background:#E6E6E6;
 }
