@@ -1,5 +1,4 @@
 header{
-	position:relative;
 	width:1170px;
 	background:white;
 }
@@ -15,7 +14,7 @@ header{
 	margin-right:15px;
 }
 .social-li{
-	margin-right:15px;
+	padding-right:15px;
 }
 .social-li:after{
 	content:'';
@@ -28,3 +27,30 @@ header{
 .container2{
 	background:#E6E6E6;
 }
+.banner{
+	padding-top:30px;
+	padding-bottom:30px;
+}
+.container3{
+	background:#363E97;
+}
+.box-text{
+	padding-top:30px;
+}
+/*.boxes{
+	display: flex;
+	justify-content:space-between;
+}
+.box1{
+	padding-top:35px;
+	background-color:#fff;
+	width:570px;
+	height:320px;
+}
+.box2{
+	padding-top:35px;
+	background-color:#fff;
+	width:570px;
+	height:320px;
+
+}*/
