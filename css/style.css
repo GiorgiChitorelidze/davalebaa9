@@ -24,6 +24,9 @@ header{
 	display: inline-block;
 	margin:0 10px;
 }
+.social-li:last-child:after{
+	display: none;
+}
 .container2{
 	background:#E6E6E6;
 }
@@ -39,7 +42,9 @@ header{
 	align-items: middle;
 }
 .box-text{
-	padding-top:30px;
+	padding-top: 35px;
+	padding-left:35px;
+	padding-bottom:30px; 
 }
 .boxes{
 	display: flex;
@@ -71,6 +76,11 @@ header{
 .container4{
 	background:#BDCCD4;
 }
+.texty{
+	display: flex;
+	justify-content:center;
+	margin-top: 150px;
+}
 .images{
 	display: flex;
 	justify-content:space-between;
@@ -92,6 +102,7 @@ header{
 	justify-content:center;
 }
 .footer{
+	padding-top:25px;
 	background:#fff;
 	display: flex;
 	justify-content:space-between;
@@ -101,4 +112,24 @@ header{
 }
 .p1{
 	padding-left:98px;
+}
+.graybg{
+	background: #E6E6E6;
+	padding-bottom:30px;
+}
+.box-paragraph{
+	padding-top: 35px;
+	padding-left:50px;
+	padding-bottom:30px;
+}
+.boxx1{
+	background: #F2F2F2;
+	width:340px;
+	padding-bottom: 30px;
+	margin:0 auto;
+	margin-bottom:30px;
+}
+.box-paragraph1{
+	text-align:center;
+	margin-right: 30px;
 }
