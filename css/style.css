@@ -1,5 +1,5 @@
 header{
-	width:1170px;
+	/*width:1170px;*/
 	background:white;
 }
 .flex{
@@ -34,12 +34,19 @@ header{
 .container3{
 	background:#363E97;
 }
+.text-span{
+	display: flex;
+	align-items: middle;
+}
 .box-text{
 	padding-top:30px;
 }
 .boxes{
 	display: flex;
 	justify-content:space-between;
+	padding-bottom:35px;
+	padding-right:35px;
+	padding-left:35px;
 }
 .box1{
 	padding-top:35px;
@@ -52,7 +59,6 @@ header{
 	background-color:#fff;
 	width:570px;
 	height:320px;
-
 }
 .box-image1{
 	width:100px;
@@ -61,4 +67,38 @@ header{
 .box-image2{
 	width:100px;
 	height:130px;
+}
+.container4{
+	background:#BDCCD4;
+}
+.images{
+	display: flex;
+	justify-content:space-between;
+	padding-bottom:89px;
+	padding-left:50px;
+	padding-right:50px;
+}
+.footer{
+	background:#fff;
+}
+.images-text{
+	padding-top: 35px;
+	padding-left:50px;
+	padding-bottom:30px;
+}
+.images-paragraph{
+	background:#E6E6E6;
+	display: flex;
+	justify-content:center;
+}
+.footer{
+	background:#fff;
+	display: flex;
+	justify-content:space-between;
+}
+.p2{
+	padding-right:98px;
+}
+.p1{
+	padding-left:98px;
 }
